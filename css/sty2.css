@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(170, 177, 170);
+
+}
+
+.logo{
+    max-width: 4rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-list li a{
+    text-decoration:none;
+    color:rgb(92, 52, 202);
+
+}
