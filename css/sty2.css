@@ -1,3 +1,11 @@
+body{
+    font-family: 'Alkatra', cursive;
+font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    color: red ;
+    }
 *{
     margin:0;
     padding:0;
@@ -9,22 +17,30 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    background-color: rgb(170, 177, 170);
+    background-color: rgb(220, 231, 56);
 
 }
-
-.logo{
-    max-width: 4rem;
+body{
+    background: url(https://www.xtrafondos.com/wallpapers/montanas-con-nieve-en-el-bosque-3934.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.regis{
+    max-width: 2rem;
 }
 
-.nav-list {
+.nav-list2 {
     list-style-type: none;
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
 }
 
-.nav-list li a{
+.nav-list2 li a{
     text-decoration:none;
     color:rgb(92, 52, 202);
 
 }
+
+.enlace1{
+    color: red ;
+    }
